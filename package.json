@@ -12,7 +12,7 @@
     "fmt": "prettier --write 'src/**/*.{js,css}'",
     "serve": "nodemon --exec babel-node lib/server.js",
     "server": "babel-node lib/server.js",
-    "start": "run-s clean build server"
+    "start": "run-s server"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
